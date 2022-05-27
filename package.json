@@ -1,0 +1,23 @@
+{
+  "name": "@willyfontenelle/dsc-assets",
+  "version": "1.0.2",
+  "description": "Biblioteca de Assets para o Curso de Design System in Code da Meiuca",
+  "main": "index.js",
+  "author": "Willy Fontenelle<willyfontenelle@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/willyfontenelle/ds-in-code-assets"
+  },
+  "files": [
+    "dist",
+    "src/assets"
+  ],
+  "scripts": {
+    "build": "del dist && node src/build.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^4.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
